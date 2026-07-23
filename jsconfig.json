@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node"
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
